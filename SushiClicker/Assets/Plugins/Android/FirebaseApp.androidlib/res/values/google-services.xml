@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources tools:keep="@string/firebase_database_url,@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id,@string/default_web_client_id" xmlns:tools="http://schemas.android.com/tools">
+  <string name="firebase_database_url" translatable="false">https://sushiclicker-311a6-default-rtdb.europe-west1.firebasedatabase.app</string>
+  <string name="gcm_defaultSenderId" translatable="false">702149345037</string>
+  <string name="google_storage_bucket" translatable="false">sushiclicker-311a6.appspot.com</string>
+  <string name="project_id" translatable="false">sushiclicker-311a6</string>
+  <string name="google_api_key" translatable="false">AIzaSyCeTjA6OZ99M16n4qvFjJoU0SrHq6bHDuc</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCeTjA6OZ99M16n4qvFjJoU0SrHq6bHDuc</string>
+  <string name="google_app_id" translatable="false">1:702149345037:android:cedce08a406b3642b8fa44</string>
+  <string name="default_web_client_id" translatable="false">702149345037-rj2kbgiqcpphgpv8ipb6pk46eo15j8ol.apps.googleusercontent.com</string>
+</resources>

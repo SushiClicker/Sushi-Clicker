@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "702149345037",
+    "firebase_url": "https://sushiclicker-311a6-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "sushiclicker-311a6",
+    "storage_bucket": "sushiclicker-311a6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:702149345037:android:cedce08a406b3642b8fa44",
+        "android_client_info": {
+          "package_name": "com.DefaultCompany.sushiclicker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "702149345037-rj2kbgiqcpphgpv8ipb6pk46eo15j8ol.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeTjA6OZ99M16n4qvFjJoU0SrHq6bHDuc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "702149345037-rj2kbgiqcpphgpv8ipb6pk46eo15j8ol.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
