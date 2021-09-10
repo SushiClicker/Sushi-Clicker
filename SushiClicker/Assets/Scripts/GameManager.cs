@@ -179,8 +179,8 @@ public class GameManager : MonoBehaviour
         if (num < thousand)
             return num.ToString();
         else if (num >= thousand && num < million)
-            return (num / thousand) + "K";
-        return (num / million) + "M";
+            return Math.Round(num / thousand, 2) + "K";
+        return Math.Round(num / million, 2) + "M";
     }
 
     //Functions to update main screen texts
