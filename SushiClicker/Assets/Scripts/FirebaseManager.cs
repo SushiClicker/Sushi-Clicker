@@ -496,7 +496,7 @@ public class FirebaseManager : MonoBehaviour
         //If there is a logged in user
         if (user != null)
         {
-            var DBTask = dbReference.Child("users").Child(user.UserId).Child("sushi_leaderboard").SetValueAsync((int)userStats.totalSushi);
+            var DBTask = dbReference.Child("users").Child(user.UserId).Child("sushi_leaderboard").SetValueAsync(Math.Round(userStats.totalSushi));
             //Wait until the task completes
             yield return new WaitUntil(predicate: () => DBTask.IsCompleted);
 

@@ -76,7 +76,7 @@ public class GameManager : MonoBehaviour
                 {
                     bonusButton.SetActive(false);
                 }
-                bonusCounterText.text = Convert.ToInt32(bonusLength) + "s";
+                bonusCounterText.text = Convert.ToInt64(bonusLength) + "s";
 
                 perSecMul = userStats.sushiPerSec * 2;
                 perClickAdd = userStats.sushiPerClick * 2;
@@ -175,7 +175,7 @@ public class GameManager : MonoBehaviour
     {
         int million = 1000000;
         int thousand = 1000;
-        num = Convert.ToInt32(num);
+        num = Convert.ToInt64(num);
         if (num < thousand)
             return num.ToString();
         else if (num >= thousand && num < million)

@@ -44,7 +44,7 @@ public class Misc : MonoBehaviour
     public void ClickShareButton()
     {
         string shareMessage = "I can't believe I already made " + GameManager.ShortenNumberToInt(GameManager.userStats.totalSushi) + " sushi in Sushi Clicker!\n" +
-            "Click here to join me: https://DOWNLOADLINK.COM";
+            "Click here to join me: https://play.google.com/store/apps/details?id=com.DefaultCompany.sushiclicker";
         new NativeShare().SetSubject("Sushi Clicker").SetText(shareMessage).Share();
     }
 
