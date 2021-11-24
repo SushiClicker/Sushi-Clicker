@@ -53,8 +53,8 @@ public class UIManager : MonoBehaviour
     {
         ClearScreen();
         welcomeUI.SetActive(true);
-        //After 2 seconds delay turn on gamescreen function
-        Invoke(nameof(GameScreen), 2.0f);
+        //After 4 seconds delay turn on gamescreen function
+        Invoke(nameof(GameScreen), 4.0f);
     }
 
     //Function to turn on login screen

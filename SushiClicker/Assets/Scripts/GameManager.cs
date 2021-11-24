@@ -123,7 +123,7 @@ public class GameManager : MonoBehaviour
     //Function to buy an item from the shop
     public void Buy(int itemNumber)
     {
-        //If the item is active income updates sushiPerClick
+        //If the item is active income updates sushiPerClick(PowerClick)
         if (itemNumber == 0)
         {
             //If the user has enough sushi in the bank to buy the item
@@ -170,7 +170,7 @@ public class GameManager : MonoBehaviour
         return Math.Round(num / million, 2) + "M";
     }
 
-    //Function to convert double num to string and shorten it with no decimal digits
+    //Function to convert double num to string and shorten it without decimal digits
     public static string ShortenNumberToInt(double num)
     {
         int million = 1000000;
@@ -183,7 +183,7 @@ public class GameManager : MonoBehaviour
         return Math.Round(num / million, 2) + "M";
     }
 
-    //Functions to update main screen texts
+    //Functions to update main screen texts(Price,Mul,Level)
     private void UpdateShopText()
     {
         for (int i = 0; i < shopText.Length; i += 3)
